@@ -69,7 +69,7 @@ function createCountryCard(element) {
     <p class="card-text"><span>Capital:${element.capital} </span></p>
     <p class="card-text"><span>Region: ${element.region}</span></p>
     <p class="card-text"><span>LatLng: ${element.lat} , ${element.lon} </span></p>
-    <p class="card-text"><span>Country Codes: </span></p>
+    <p class="card-text"><span>Country Codes: ${element.cca3}</span></p>
     <div class="d-flex justify-content-center">
     <a href="#" class="btn btn-primary" onClick="getWeather(${element.latlng[0]},${element.latlng[1]},${element.id})">Click for Weather</a></div>
     <div id="weather-data"></div>
